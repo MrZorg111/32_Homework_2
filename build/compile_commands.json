@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/yodji/source/repos/Lesson_Skillbox/Lesson_32_JSON/32_Homework_2/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/32_Homework_2.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\32_Homework_2.dir\\main.cpp.obj -c C:\\Users\\yodji\\source\\repos\\Lesson_Skillbox\\Lesson_32_JSON\\32_Homework_2\\src\\main.cpp",
+  "file": "C:/Users/yodji/source/repos/Lesson_Skillbox/Lesson_32_JSON/32_Homework_2/src/main.cpp",
+  "output": "src/CMakeFiles/32_Homework_2.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/yodji/source/repos/Lesson_Skillbox/Lesson_32_JSON/32_Homework_2/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/32_Homework_2.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\32_Homework_2.dir\\function.cpp.obj -c C:\\Users\\yodji\\source\\repos\\Lesson_Skillbox\\Lesson_32_JSON\\32_Homework_2\\src\\function.cpp",
+  "file": "C:/Users/yodji/source/repos/Lesson_Skillbox/Lesson_32_JSON/32_Homework_2/src/function.cpp",
+  "output": "src/CMakeFiles/32_Homework_2.dir/function.cpp.obj"
+}
+]
