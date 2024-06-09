@@ -142,16 +142,13 @@ src/CMakeFiles/32_Homework_2.dir/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ostream.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/istream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/istream.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/fstream \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/codecvt.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/fstream.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/vector \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_uninitialized.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_vector.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_bvector.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/vector.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/map \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_tree.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ext/aligned_buffer.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/node_handle.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_map.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_multimap.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/erase_if.h \
  C:/Users/yodji/source/repos/Lesson_Skillbox/Lesson_32_JSON/32_Homework_2/nlohmann_json/include/nlohmann/json.hpp \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/algorithm \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_algo.h \
@@ -167,10 +164,12 @@ src/CMakeFiles/32_Homework_2.dir/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/unordered_map.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/hashtable.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/hashtable_policy.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ext/aligned_buffer.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/enable_special_members.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/node_handle.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/erase_if.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/vector \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_uninitialized.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_vector.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_bvector.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/vector.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/array \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/compare \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/iterator \
@@ -198,10 +197,6 @@ src/CMakeFiles/32_Homework_2.dir/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/forward_list \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/forward_list.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/forward_list.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/map \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_tree.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_map.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_multimap.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/valarray \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cmath \
  C:/mingw64/x86_64-w64-mingw32/include/math.h \
@@ -263,6 +258,7 @@ src/CMakeFiles/32_Homework_2.dir/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_facets_nonio.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/codecvt.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_facets_nonio.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_conv.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/iomanip \
@@ -300,4 +296,8 @@ src/CMakeFiles/32_Homework_2.dir/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/any \
  C:/Users/yodji/source/repos/Lesson_Skillbox/Lesson_32_JSON/32_Homework_2/nlohmann_json/include/nlohmann/detail/macro_unscope.hpp \
  C:/Users/yodji/source/repos/Lesson_Skillbox/Lesson_32_JSON/32_Homework_2/nlohmann_json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- C:/Users/yodji/source/repos/Lesson_Skillbox/Lesson_32_JSON/32_Homework_2/include/function.h
+ C:/Users/yodji/source/repos/Lesson_Skillbox/Lesson_32_JSON/32_Homework_2/include/function.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/fstream \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/fstream.tcc
