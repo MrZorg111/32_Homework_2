@@ -84,7 +84,6 @@ src/CMakeFiles/32_Homework_2.dir/function.cpp.obj: C:/Users/yodji/source/repos/L
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/fs_fwd.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/fs_ops.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/fs_path.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/fstream.tcc \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/functexcept.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/functional_hash.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/gslice.h \
@@ -191,7 +190,6 @@ src/CMakeFiles/32_Homework_2.dir/function.cpp.obj: C:/Users/yodji/source/repos/L
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ext/type_traits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/filesystem \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/forward_list \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/fstream \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/functional \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/initializer_list \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/iomanip \
@@ -241,10 +239,8 @@ src/CMakeFiles/32_Homework_2.dir/function.cpp.obj: C:/Users/yodji/source/repos/L
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/vector \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/version \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
@@ -608,9 +604,9 @@ src/CMakeFiles/32_Homework_2.dir/main.cpp.obj: C:/Users/yodji/source/repos/Lesso
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h
 
 
-C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
-
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
 C:/Users/yodji/source/repos/Lesson_Skillbox/Lesson_32_JSON/32_Homework_2/nlohmann_json/include/nlohmann/detail/conversions/to_json.hpp:
 
@@ -652,9 +648,9 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/enable_special_mem
 
 C:/Users/yodji/source/repos/Lesson_Skillbox/Lesson_32_JSON/32_Homework_2/nlohmann_json/include/nlohmann/detail/exceptions.hpp:
 
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/ell_integral.tcc:
-
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/fstream:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/ell_integral.tcc:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_vector.h:
 
@@ -855,8 +851,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/fs_fwd.h:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/fs_ops.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/fstream.tcc:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/gslice_array.h:
 
@@ -1213,3 +1207,5 @@ C:/mingw64/x86_64-w64-mingw32/include/sys/types.h:
 C:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/wctype.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/fstream.tcc:

@@ -1,36 +1,23 @@
-#pragma once
-#include <iostream>
+#pragma once 
 #include <string>
-#include <vector>
-#include <fstream>
 #include <map>
+#include <vector>
 #include <nlohmann/json.hpp>
+struct Movie {
+    std::string film;
+    std::string country;
+    std::string date;
+    std::string studio;
+    std::string director;
+    std::string writter;
+    std::string producer;
+    std::map<std::string, std::string> actorsCharacter;
 
-struct AutoIterationMovie {
-    std::string nameMovie = "The Lord of the ring";
-    std::string country = "New Zeland USA";
-    std::string date = "2001";
-    std::string studio = "New Line Cinema";
-    std::string nameWritten = "Fran Walsh, Phillippa Boyens, Peter Jackson";
-    std::string nameDirector = "Peter Jackson";
-    std::string nameProducer = "Peter Jackson, Barry M. Osborne, Tim Sanders";
-    std::vector<std::vector<std::string>> nameCharActors = {{"Frodo Baggins", "Elijah", "Wood"}, {"Gandalf", "Ian", "McKellen"}, {"Samwise Gamgee", "Sean", "Estin"}, {"Aragorn", "Viggo", "Mortensen"}, {"Legolas", "Orlando", "Bloom"}};
 };
 
-void iteration_dict(nlohmann::json &_dict);
-void iteration_data(std::map<std::string, nlohmann::json> &_data, nlohmann::json &_dict);
+void iteration_dict(nlohmann::json& _dict, std::vector<Movie>& _movies);
 
-
-
-
-
-
-
-
-
-
-
-
+void finder(std::string find_name, Movie& _movies);
 
 
 
