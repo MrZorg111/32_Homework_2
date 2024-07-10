@@ -6,21 +6,26 @@
 #include <nlohmann/json.hpp>
 
 void iteration_dict(nlohmann::json& _dict, std::vector<Movie>& _movies){
-   Movie struct_t;
-   for(int i = 0; i < 5; i++) {
-      for(const auto tempo : _dict.items()) {
-      struct_t.film = tempo.key();
-      struct_t.country = _dict["The Lord of the ring"]["Country"];
-      struct_t.date  = _dict["The Lord of the ring"]["Date"];
-      struct_t.studio = _dict["The Lord of the ring"]["Studio"];
-      struct_t.director = _dict["The Lord of the ring"]["Name Director"];
-      struct_t.writter = _dict["The Lord of the ring"]["Name Writter"];
-      struct_t.producer = _dict["The Lord of the ring"]["Name Producer"];
-      struct_t.actorsCharacter = _dict["The Lord of the ring"]["ActorsCharacters"];
-     _movies.push_back(struct_t);
+  
+   if (!_dict.empty()) {
+      auto struct_t = Movie();
+      for(auto it = _dict.begin(); it != _dict.end(); it++) {
+         struct_t.film = it.key();
+         struct_t.country = it.value()["Country"];
+         struct_t.date  = it.value()["Date"];
+         struct_t.studio = it.value()["Studio"];
+         struct_t.director = it.value()["Name Director"];
+         struct_t.writter = it.value()["Name Writter"];
+         struct_t.producer = it.value()["Name Producer"];
+         struct_t.actorsCharacter = it.value()["ActorsCharacters"];
+          _movies.push_back(struct_t);
       }
    }
+   else {
+      std::cout << "Dict empty!" << std::endl;
+   }
 }
+
 
 void finder(std::string find_name, Movie& _movies){
    bool check = "false";

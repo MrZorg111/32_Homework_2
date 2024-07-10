@@ -1,9 +1,41 @@
-{"The Lord of the ring" : {"Country" : "New Zeland, USA", 
+{"The Lord of the ring" :  {"Country" : "New Zeland, USA", 
                            "Date" : "2001",
                            "Studio" : "New Line Sinema", 
                            "Name Director" : "Peter Jackson", 
                            "Name Writter" : "Fran Walsh, Philippa Boyens, Peter Jackson", 
                            "Name Producer" : "Peter Jackson, Barry M. Osborne, Tim Sanders", 
-                           "ActorsCharacters" : {"Frodo Baggins":"Elija Wood","Gandalf":"Ian McKellen","Samwise Gamgee":"Sean Estin", "Aragorn":"Viggo Mortensen", "Legolas":"Orlando Bloom"}
-                          }
+                           "ActorsCharacters" : {"Frodo Baggins" : "Elija Wood","Gandalf" : "Ian McKellen","Samwise Gamgee" : "Sean Estin", "Aragorn" : "Viggo Mortensen", "Legolas" : "Orlando Bloom"}
+                          },
+ "Die Hard" :              {"Country" : "USA",
+                           "Date" : "1989",
+                           "Studio" : "20th Century Fox",
+                           "Name Director" : "John McTirnan", 
+                           "Name Writter" : "Jeb Stewart",
+                           "Name Producer" : "Charles Gordon",
+                           "ActorsCharacters" : {"Jhon McClain" : "Bruce Willis", "Al Powell" : "Reginakd Weljonson", "Hans Gruber" : "Alan Rickman"}
+                          },
+ "The Filfth Element" :    {"Country" : "Great Britain, France, USA",
+                           "Date" : "1997",
+                           "Studio" : "Gaumont",
+                           "Name Director" : "Luc Besson",
+                           "Name Writter" : "Robert Mark Kamen",
+                           "Name Producer" : "Patrice Ledoux",
+                           "ActorsCharacters" : {"Korben Dallas" : "Bruce Willis", "Lila" : "Milla Jovovich", "Jean-Baptiste Emmanuel Zorg" : "Gary Oldman"}
+                          },
+ "Armageddon" :            {"Country" : "USA",
+                           "Date" : "1998",
+                           "Studio" : "Touchestone Pictures",
+                           "Name Director" : "Michael Bay",
+                           "Name Writter" : "J. J. Abrams",
+                           "Name Producer" : "Michael Bay",
+                           "ActorsCharacters" : {"Harry Stamper" : "Bruce Willis", "A. J. Frost" : "Ben Affleck", "Grace Stamper" : "Liv Tyler"}
+                           },
+ "Independence Day" :       {"Country" : "USA",
+                            "Date" : "1996",
+                            "Studio" : "20th Century Fox",
+                            "Name Director" : "Roland Emmerich",
+                            "Name Writter" : "Dean Devlin, Roland Emmerich",
+                            "Name Producer" : "Dean Devlin",
+                            "ActorsCharacters" : {"Stephen Heller" : "Will Smith", "Thomas Whitmore" : "Bill Pullman", "David Levinson" : "Jeff Goldblum"}
+                           }                        
 }
