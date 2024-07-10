@@ -17,7 +17,7 @@ struct Movie {
 
 void iteration_dict(nlohmann::json& _dict, std::vector<Movie>& _movies);
 
-void finder(std::string find_name, Movie& _movies);
+void finder(std::string find_name, Movie& _movies, bool& _check);
 
 
 

@@ -27,20 +27,16 @@ void iteration_dict(nlohmann::json& _dict, std::vector<Movie>& _movies){
 }
 
 
-void finder(std::string find_name, Movie& _movies){
-   bool check = "false";
+void finder(std::string find_name, Movie& _movies, bool& _check){
    for(std::map<std::string, std::string> ::iterator it = _movies.actorsCharacter.begin(); it != _movies.actorsCharacter.end(); it++) {
-      if(!_movies.actorsCharacter.empty()) {
+     if(!_movies.actorsCharacter.empty()) {
          if (it->second == find_name) {
             std::cout << "\t--Actor " << it->second << " played a role " << it->first << " in the movie " << _movies.film << std::endl;
-            check = "true";
+            _check = true;
          }
       }  
       else {
          std::cout << "Map empty!" << std::endl;
       }
-   }
-   if (!check) {
-      std::cout << "\t--The desired actor has not been found, as well as such a character is not known!" << std::endl;
    }
 }

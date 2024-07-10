@@ -20,6 +20,7 @@ int main() {
     std::ifstream data_movies;
     data_movies.open("data_movie.json");
     nlohmann::json dict_movie;
+    //std::string wanted_name;
     std::string wanted_name = "Bruce Willis";
     
     if (data_movies.is_open()) {
@@ -35,9 +36,14 @@ int main() {
     //std::cout << "Enter a name or role: " << std::endl;
     //std::getline(std::cin, wanted_name);
     std::cout << "We will look for an actor " << wanted_name << std::endl;
+    
+    bool check = false;
     for(int a = 0; a < SIZE; a++) {
-      finder(wanted_name, movies[a]);
+      finder(wanted_name, movies[a], check);
     }
+    if (!check) {
+      std::cout << "\t--The desired actor has not been found, as well as such a character is not known!" << std::endl;
+   }
 
 
     return 0;  
